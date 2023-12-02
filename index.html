@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
+    <link rel="stylesheet" media="screen and (min-width: 1100px)" href="css/widescreen.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/05eaefea44.js" crossorigin="anonymous"></script>
+    
+    <title>WhiteRock Financial</title>
+</head>
+<body id="home">
+    <!--Navbar -->
+    <nav id="navbar">
+        <h1 class="logo">
+            <span class="text-primary">
+                <i class="fas fa-sharp fa-solid fa-globe"></i> White
+            </span>Rock
+        </h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#what">What</a></li>
+            <li><a href="#who">Who</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <header id="showcase">
+        <div class="showcase-content">
+        <h1 class="l-heading">
+            Committed to a better future
+        </h1>
+        <p class="lead">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis assumenda sunt id ut, laboriosam est.
+        </p>
+        <a href="#what" class="btn">Read More</a>
+        </div>
+    </header>
+
+    <!-- Section: What -->
+    <section id="what" class="bg-light py-1">
+        <div class="container">
+            <h2 class="m-heading text-center"><span class="text-primary">What</span> We Do</h2>
+            <div class="items">
+                <div class="item"><i class="fas fa-university fa-2x"></i>
+                <div>
+                    <h3>Investment Banking</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem dolorem quas sed!</p>
+                </div>
+                </div>
+                <div class="item">
+                    <i class="fas fa-book-reader fa-2x"></i>
+                <div>
+                    <h3>Portofolio Management</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem dolorem quas sed!</p>
+                </div>
+                </div>
+                <div class="item">
+                    <i class="fas fa-pencil-alt fa-2x"></i>
+                <div>
+                    <h3>Tax & Custodial</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem dolorem quas sed!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Section: Who -->
+    <section id="who">
+        <div class="who-img"></div>
+        <div class="who-text bg-dark" p-2>
+            <h2 class="m-heading"><span class="text-primary">Who</span> We Are</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quam culpa aut libero eligendi ipsum magnam, aliquid suscipit tenetur doloribus! Fugiat officia aliquid saepe eaque autem vel nulla eos aperiam.</p>
+            <h3>Our team</h3>
+            <ul class="list">
+                <li>John White: CEO</li>
+                <li>Michelle Gant: CFO</li>
+                <li>John Smith: Lead Accountant</li>
+                <li>Janet Williams: Investment Manager</li>
+                <li>Kara Knight: Senior Accountant</li>
+            </ul>
+        </div>
+    </section>
+
+    <!--Section: Clients-->
+    <section id="clients" class="py-1">
+        <div class="container">
+            <h2 class="m-heading text-center">
+                <span class="text-primary">Our</span> Clients
+            </h2>
+            <div class="items py-1">
+                <div><img src="./img/logo5.png" alt="Client"></div>
+                <div><img src="./img/logo3.png" alt="Client"></div>
+                <div><img src="./img/logo1.png" alt="Client"></div>
+                <div><img src="./img/logo4.png" alt="Client"></div>
+                <div><img src="./img/logo2.png" alt="Client"></div>
+            </div>
+        </div>
+    </section>
+
+    <!--Section: Contact-->
+    <section id="contact">
+        <div class="contact-form bg-primary p-2">
+            <h2 class="m-heading">Contact us</h2>
+            <p>Please use the form below to contact us</p>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Please enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Please enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="text" name="phone" id="phone" placeholder="Please enter your phone number">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea  name="message" id="message" placeholder="Please enter a message for us"></textarea>
+                </div>
+                <input type="submit" value="Send" class="btn btn-dark">
+            </form>
+        </div>
+        <div class="map"></div>
+    </section>
+
+    <!--Footer-->
+    <footer id="main-footer" class="bg-dark text-center py-1">
+        <div class="container">
+            <p>Copyright &copy; 2023, WhiteRock, All Rights Reserved</p>
+        </div>
+    </footer>
+
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+        <script>(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
+        ({key: "AIzaSyDlDd0EocSPq4kjEPQ9bOiUkUnIcD1B2m8", v: "weekly"});</script>
+    <script src="./js/main.js"></script>
+  </body>
+</html> 
+
