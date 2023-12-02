@@ -151,7 +151,7 @@ p {
     height: 100%;
     padding: 0 2rem;
     position: absolute;
-    top: 60px;
+    top: 65px;
     left: 0;
     right: 0;
     bottom: 0;
@@ -171,6 +171,10 @@ p {
     padding: 1rem;
 }
 
+#what h2 {
+    padding-top: 2.4rem;
+}
+
 #what .items .item i {
     background: #d19004;
     padding: 1rem;
@@ -182,7 +186,7 @@ p {
 
 #who {
     display: flex;
-}
+  }
 
 #who div {
     flex: 1;
@@ -190,6 +194,10 @@ p {
 
 #who .who-img {
 background: url('../img/pexels-august-de-richelieu-4427816.jpg') no-repeat center center/cover;
+}
+
+.who-text {
+      padding-top: 3.7rem;
 }
 
 .who-text p, .who-text h3 {
